@@ -1,0 +1,10 @@
+add_newline = false
+
+
+right_format = """
+$time"""
+
+[time]
+disabled = false
+format = "[ $time]($style)"
+

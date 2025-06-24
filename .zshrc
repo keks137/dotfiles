@@ -1,5 +1,4 @@
 eval "$(starship init zsh)"
-
 # Set editor default keymap to emacs (`-e`) or vi (`-v`)
 bindkey -v
 
@@ -24,11 +23,14 @@ function y() {
 
 
 # Aliases
+alias pls='doas'
+alias ls='ls --color=auto --group-directories-first'
 alias nv="nvim"
 alias gal="git commit -a"
 alias :q="exit"
 alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"
 alias nvgd="nvim --cmd 'lua vim.g.godot_mode = true'"
+mkcd() { mkdir -p "$@" && cd "$@"; }
 
 # Exports
 export EDITOR='nvim'
@@ -46,7 +48,15 @@ eval "$(atuin init zsh)"
 autoload -Uz compinit
 compinit
 
+zstyle ':completion:*' menu select
+# zsh-z
+source $HOME/.zsh/zsh-z/zsh-z.plugin.zsh
 # Configure color settings
 export LS_COLORS="di=34:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30;46:tw=30;42:ow=30;43"
 zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#)*=0=01;31'
+#setopt CORRECT_ALL 
+zstyle ':completion:*' matcher-list 'm:{a-zA-Z}={A-Za-z}' \
+                                'r:|[._-]=* r:|=*'   \
+                                'l:|=* r:|=*'         \
+                                'm:{[:lower:]-}={[:upper:]-}' 

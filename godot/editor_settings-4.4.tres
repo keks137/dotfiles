@@ -1,0 +1,155 @@
+[gd_resource type="EditorSettings" load_steps=13 format=3]
+
+[sub_resource type="InputEventKey" id="InputEventKey_2o06d"]
+keycode = 4194326
+
+[sub_resource type="InputEventKey" id="InputEventKey_2mwdx"]
+keycode = 4194333
+
+[sub_resource type="InputEventKey" id="InputEventKey_nu66h"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 82
+unicode = 114
+
+[sub_resource type="InputEventKey" id="InputEventKey_bcu14"]
+shift_pressed = true
+keycode = 4194333
+
+[sub_resource type="InputEventKey" id="InputEventKey_60bme"]
+device = -1
+shift_pressed = true
+ctrl_pressed = true
+physical_keycode = 82
+unicode = 82
+
+[sub_resource type="InputEventKey" id="InputEventKey_6lcr1"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 85
+unicode = 117
+
+[sub_resource type="InputEventKey" id="InputEventKey_f7hh6"]
+keycode = 4194333
+
+[sub_resource type="InputEventKey" id="InputEventKey_kck83"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 82
+unicode = 114
+
+[sub_resource type="InputEventKey" id="InputEventKey_j0scq"]
+keycode = 4194333
+
+[sub_resource type="InputEventKey" id="InputEventKey_3l51k"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 82
+unicode = 114
+
+[sub_resource type="InputEventKey" id="InputEventKey_httqf"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 66
+unicode = 98
+
+[sub_resource type="InputEventKey" id="InputEventKey_f0bhm"]
+device = -1
+ctrl_pressed = true
+physical_keycode = 84
+unicode = 116
+
+[resource]
+interface/editor/display_scale = 2
+interface/editor/editor_screen = -2
+interface/theme/base_color = Color(0.21, 0.24, 0.29, 1)
+interface/theme/accent_color = Color(0.44, 0.73, 0.98, 1)
+interface/theme/contrast = 0.3
+filesystem/file_dialog/show_hidden_files = true
+text_editor/external/exec_path = "/home/archie/.config/godot/nvim.sh"
+text_editor/external/use_external_editor = true
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+editors/3d/navigation/emulate_numpad = false
+network/connection/network_mode = 1
+editors/3d/navigation/orbit_modifier = 0
+editors/3d/navigation/pan_modifier = 1
+editors/3d/navigation/zoom_modifier = 4
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = "/home/archie/Android/Sdk"
+export/android/debug_keystore = "/home/archie/.local/share/godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/osslsigncode = ""
+export/windows/wine = ""
+_default_feature_profile = ""
+_use_favorites_root_selection = false
+network/debug_adapter/request_timeout = 1000
+editors/grid_map/editor_side = 1
+_editor_settings_advanced_mode = true
+_project_settings_advanced_mode = false
+_export_template_download_directory = ""
+_script_setup_templates_dictionary = {
+"": "0ObjectEmpty",
+"A": "0ObjectEmpty",
+"Ar": "0ObjectEmpty",
+"Are": "0ObjectEmpty",
+"Area": "0ObjectEmpty",
+"Area2": "0ObjectEmpty",
+"Area2D": "0NodeDefault",
+"Camera2D": "0NodeDefault",
+"N": "0ObjectEmpty",
+"No": "0ObjectEmpty",
+"Nod": "0ObjectEmpty",
+"Node": "0NodeDefault",
+"Node2D": "0NodeDefault",
+"O": "0ObjectEmpty",
+"Ob": "0ObjectEmpty",
+"Obj": "0ObjectEmpty",
+"Obje": "0ObjectEmpty",
+"Objec": "0ObjectEmpty",
+"Object": "0ObjectEmpty",
+"On": "0ObjectEmpty",
+"Onj": "0ObjectEmpty",
+"R": "0ObjectEmpty",
+"Re": "0ObjectEmpty",
+"Res": "0ObjectEmpty",
+"Reso": "0ObjectEmpty",
+"Resou": "0ObjectEmpty",
+"Resour": "0ObjectEmpty",
+"Resourc": "0ObjectEmpty",
+"Resource": "0ObjectEmpty",
+"Sprite2D": "0NodeDefault"
+}
+_script_setup_use_script_templates = true
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_2o06d")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}, {
+"name": "scene_tree/rename",
+"shortcuts": [SubResource("InputEventKey_2mwdx"), SubResource("InputEventKey_nu66h")]
+}, {
+"name": "scene_tree/batch_rename",
+"shortcuts": [SubResource("InputEventKey_bcu14"), SubResource("InputEventKey_60bme")]
+}, {
+"name": "scene_tree/toggle_unique_name",
+"shortcuts": [SubResource("InputEventKey_6lcr1")]
+}, {
+"name": "groups_editor/rename",
+"shortcuts": [SubResource("InputEventKey_f7hh6"), SubResource("InputEventKey_kck83")]
+}, {
+"name": "filesystem_dock/rename",
+"shortcuts": [SubResource("InputEventKey_j0scq"), SubResource("InputEventKey_3l51k")]
+}, {
+"name": "scene_tree/attach_script",
+"shortcuts": [SubResource("InputEventKey_httqf")]
+}, {
+"name": "scene_tree/change_node_type",
+"shortcuts": [SubResource("InputEventKey_f0bhm")]
+}]

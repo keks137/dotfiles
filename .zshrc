@@ -1,6 +1,8 @@
 eval "$(starship init zsh)"
 # Set editor default keymap to emacs (`-e`) or vi (`-v`)
 bindkey -v
+bindkey  '^[[3~' vi-delete-char
+bindkey -a '^[[3~' vi-delete-char
 
 # Remove path separator from WORDCHARS.
 WORDCHARS=${WORDCHARS//[\/]}

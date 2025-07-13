@@ -2,6 +2,8 @@
 set -x
 WORK_DIR="$(pwd)"
 
+cp -r ~/.config/alacritty .
+cp -r ~/.config/godot .
 cp -r ~/.config/kitty .
 cp -r ~/.config/rofi .
 cp -r ~/.config/tmux .
@@ -16,10 +18,3 @@ cd "hypr"
 git pull ~/.config/hypr
 cd "$WORK_DIR"
 
-cd "alacritty"
-git pull ~/.config/alacritty
-cd "$WORK_DIR"
-
-cd "godot"
-git pull ~/.config/godot
-cd "$WORK_DIR"

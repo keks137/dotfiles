@@ -4,3 +4,7 @@
 [submodule "hypr"]
 	path = hypr
 	url = https://github.com/keks137/hyprdot.git
+
+[submodule "alacritty-theme"]
+	path = alacritty/alacritty-theme
+	url = https://github.com/alacritty/alacritty-theme.git

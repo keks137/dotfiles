@@ -36,8 +36,8 @@ mkcd() { mkdir -p "$@" && cd "$@"; }
 
 # Exports
 export EDITOR='nvim'
-export PATH="$HOME/.config/emacs/bin:$PATH"
 export PATH="$HOME/.cargo/bin:$PATH"
+export PATH="$HOME/usr/bin:$PATH"
 export ANDROID_HOME="$HOME/Android/Sdk"
 
 . "$HOME/.atuin/bin/env"

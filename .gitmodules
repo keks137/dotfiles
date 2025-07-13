@@ -1,0 +1,6 @@
+[submodule "nvim"]
+	path = nvim
+	url = https://github.com/keks137/kickstart.nvim.git
+[submodule "hypr"]
+	path = hypr
+	url = https://github.com/keks137/hyprdot.git

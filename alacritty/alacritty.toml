@@ -2,14 +2,14 @@
 import = [
 	#"~/.config/alacritty/alacritty-theme/themes/aura.toml"
 	#"~/.config/alacritty/alacritty-theme/themes/hatsunemiku.toml"
-	#"~/.config/alacritty/alacritty-theme/themes/hyper.toml"
+	"~/.config/alacritty/alacritty-theme/themes/hyper.toml"
 	#"~/.config/alacritty/alacritty-theme/themes/omni.toml"
 	#"~/.config/alacritey/alacritty-theme/tokyonight_night.toml"
-	"~/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"
+	#"~/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"
 	#"~/.config/alacritty/alacritty-theme/themes/campbell.toml"
 ]
 [font]
-size = 11.0
+size = 12.0
 
 [font.bold]
 family = "MesloLGS Nerd Font"

@@ -38,7 +38,10 @@ mkcd() { mkdir -p "$@" && cd "$@"; }
 export EDITOR='nvim'
 export PATH="$HOME/.cargo/bin:$PATH"
 export PATH="$HOME/usr/bin:$PATH"
+export PATH="$HOME/.config/composer/vendor/bin/:$PATH"
 export ANDROID_HOME="$HOME/Android/Sdk"
+eval "$(rbenv init -)"
+
 
 . "$HOME/.atuin/bin/env"
 

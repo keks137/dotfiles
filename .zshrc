@@ -39,7 +39,7 @@ precmd() {
 
 
 # Aliases
-alias ls='ls --color=auto --group-directories-first'
+alias ls='LC_COLLATE=C ls --color=auto --group-directories-first'
 alias nv="nvim"
 alias gal="git commit -a"
 alias :q="exit"

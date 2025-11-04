@@ -28,7 +28,14 @@ bindkey -e
 # End of lines configured by zsh-newuser-install
 autoload -U colors && colors
 #PS1='%~ > '
-PS1="%{$fg[blue]%}%~ %{$fg[green]%}> %{$reset_color%}"
+# PS1="%{$fg[blue]%}%~ %{$fg[green]%}> %{$reset_color%}"
+precmd() {
+    if [[ $? -ne 0 ]]; then
+        PS1="%F{red}%~%f %F{green}>%f "
+    else
+        PS1="%F{blue}%~%f %F{green}>%f "
+    fi
+}
 
 
 # Aliases

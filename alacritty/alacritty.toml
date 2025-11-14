@@ -1,13 +1,3 @@
-[general]
-import = [
-	#"~/.config/alacritty/alacritty-theme/themes/aura.toml"
-	#"~/.config/alacritty/alacritty-theme/themes/hatsunemiku.toml"
-	"~/.config/alacritty/alacritty-theme/themes/hyper.toml"
-	#"~/.config/alacritty/alacritty-theme/themes/omni.toml"
-	#"~/.config/alacritey/alacritty-theme/tokyonight_night.toml"
-	#"~/.config/alacritty/alacritty-theme/themes/alabaster_dark.toml"
-	#"~/.config/alacritty/alacritty-theme/themes/campbell.toml"
-]
 [font]
 size = 12.0
 
@@ -26,3 +16,39 @@ style = "Italic"
 [font.normal]
 family = "MesloLGS Nerd Font"
 style = "Regular"
+
+
+
+# Colors (Hyper) from https://github.com/alacritty/alacritty-theme/
+
+# Default colors
+[colors.primary]
+background = '#000000'
+foreground = '#ffffff'
+
+[colors.cursor]
+text = '#F81CE5'
+cursor = '#ffffff'
+
+# Normal colors
+[colors.normal]
+black   = '#000000'
+red     = '#fe0100'
+green   = '#33ff00'
+yellow  = '#feff00'
+blue    = '#0066ff'
+magenta = '#cc00ff'
+cyan    = '#00ffff'
+white   = '#d0d0d0'
+
+# Bright colors
+[colors.bright]
+black   = '#808080'
+red     = '#fe0100'
+green   = '#33ff00'
+yellow  = '#feff00'
+blue    = '#0066ff'
+magenta = '#cc00ff'
+cyan    = '#00ffff'
+white   = '#FFFFFF'
+

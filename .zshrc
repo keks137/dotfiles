@@ -41,10 +41,9 @@ precmd() {
 # Aliases
 alias ls='LC_COLLATE=C ls --color=auto --group-directories-first'
 alias nv="nvim"
-alias gal="git commit -a"
 alias :q="exit"
-alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"
-alias nvgd="nvim --cmd 'lua vim.g.godot_mode = true'"
+# alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"
+# alias nvgd="nvim --cmd 'lua vim.g.godot_mode = true'"
 mkcd() { mkdir -p "$@" && cd "$@"; }
 
 # Configure color settings

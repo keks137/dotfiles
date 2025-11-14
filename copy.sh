@@ -8,7 +8,6 @@ cp -r ~/.config/kitty .
 cp -r ~/.config/rofi .
 cp -r ~/.config/tmux .
 cp -r ~/.config/waybar .
-cp  ~/.config/starship.toml .
 cp  ~/.zshrc .
 
 

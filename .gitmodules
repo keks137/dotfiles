@@ -1,6 +1,3 @@
 [submodule "nvim"]
 	path = nvim
 	url = https://github.com/keks137/nvim-config
-[submodule "hypr"]
-	path = hypr
-	url = https://github.com/keks137/hyprdot.git

@@ -55,3 +55,5 @@ source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zs
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source <(fzf --zsh) # Remember ctrl+r
+
+export PATH="$HOME/.config/tmux:$PATH" #sessionizer

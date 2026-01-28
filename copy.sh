@@ -4,6 +4,7 @@ WORK_DIR="$(pwd)"
 
 cp -r ~/.config/alacritty .
 cp -r ~/.config/godot .
+cp -r ~/.config/mango .
 cp -r ~/.config/hypr .
 cp -r ~/.config/kitty .
 cp -r ~/.config/rofi .

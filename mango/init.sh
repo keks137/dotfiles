@@ -1,4 +1,4 @@
-alacritty -e btop&
+foot -e btop&
 swaybg -i ~/.config/hypr/wallpapers/wallpaper.png -m fill&
 # bash ~/.config/mango/toggle.sh
 dbus-update-activation-environment --systemd WAYLAND_DISPLAY XDG_CURRENT_DESKTOP=wlroots

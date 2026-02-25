@@ -39,7 +39,7 @@ precmd() {
 
 
 # Aliases
-alias ls='LC_COLLATE=C ls --color=auto --group-directories-first'
+alias ls='LC_COLLATE=C ls --color=auto  -p --group-directories-first'
 alias nv="nvim"
 alias :q="exit"
 # alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"
@@ -58,3 +58,6 @@ source <(fzf --zsh) # Remember ctrl+r
 
 export PATH="$HOME/.config/tmux:$PATH" #sessionizer
 export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/$USER/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
+
+#no wine yap
+export  WINEDEBUG="-all" 

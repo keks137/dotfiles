@@ -39,7 +39,7 @@ precmd() {
 
 
 # Aliases
-alias ls='LC_COLLATE=C ls --color=auto  -p --group-directories-first'
+alias ls='LC_COLLATE=C ls --color=auto --time-style="+%y-%m-%d %H:%M" -p --group-directories-first'
 alias nv="nvim"
 alias :q="exit"
 # alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"

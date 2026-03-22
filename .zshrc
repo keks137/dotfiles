@@ -30,8 +30,10 @@ autoload -U colors && colors
 #PS1='%~ > '
 # PS1="%{$fg[blue]%}%~ %{$fg[green]%}> %{$reset_color%}"
 precmd() {
-    if [[ $? -ne 0 ]]; then
-        PS1="%F{red}%~%f %F{green}>%f "
+	local exit_code=$?
+    if [[ $exit_code -ne 0 ]]; then
+        # PS1="%F{red}%~%f %F{green}>%f "
+	PS1="%F{red}%~ $exit_code%f%F{green}>%f "
     else
         PS1="%F{blue}%~%f %F{green}>%f "
     fi

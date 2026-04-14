@@ -1,2 +1,2 @@
-echo 1 > /tmp/clipboard_reg
+echo 1 > $XDG_RUNTIME_DIR/regclip/in
 

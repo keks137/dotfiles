@@ -1,3 +1,4 @@
+/usr/lib/xdg-desktop-portal &
 foot -e btop&
 swaybg -i ~/.config/hypr/wallpapers/wallpaper.png -m fill&
 # bash ~/.config/mango/toggle.sh

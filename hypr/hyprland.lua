@@ -43,6 +43,7 @@ local browser = "zen-browser"
 --
 hl.on("hyprland.start", function()
 	hl.exec_cmd("hyprpaper")
+	hl.exec_cmd("wl-regclip")
 	hl.exec_cmd(terminal .. " -e btop", { workspace = "special:magic", no_initial_focus = true })
 end)
 

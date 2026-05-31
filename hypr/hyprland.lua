@@ -26,7 +26,8 @@ hl.monitor({
 ---------------------
 
 -- Set programs that you use
-local terminal = "kitty"
+-- local terminal = "kitty"
+local terminal = "foot"
 local fileManager = "dolphin"
 local menu = "rofi -show drun"
 local browser = "zen-browser"
@@ -250,6 +251,7 @@ local mainMod = "SUPER" -- Sets "Windows" key as main modifier
 
 -- Example binds, see https://wiki.hypr.land/Configuring/Basics/Binds/ for more
 hl.bind(mainMod .. " + Q", hl.dsp.exec_cmd(terminal))
+hl.bind(mainMod .. " + SHIFT + Q", hl.dsp.exec_cmd("kitty"))
 local closeWindowBind = hl.bind(mainMod .. " + C", hl.dsp.window.close())
 -- closeWindowBind:set_enabled(false)
 hl.bind(
@@ -278,6 +280,14 @@ for i = 1, 10 do
 	local key = i % 10 -- 10 maps to key 0
 	hl.bind(mainMod .. " + " .. key, hl.dsp.focus({ workspace = i }))
 	hl.bind(mainMod .. " + SHIFT + " .. key, hl.dsp.window.move({ workspace = i, follow = false }))
+end
+
+-- wl-regclip
+for i = 0, 4 do
+	local keys = { "A", "S", "D", "F", "G" }
+	local key = keys[1 + i]
+
+	hl.bind("CTRL + SUPER + " .. key, hl.dsp.exec_cmd("bash ~/.config/hypr/regclip/" .. i .. ".sh"))
 end
 
 -- Example special workspace (scratchpad)

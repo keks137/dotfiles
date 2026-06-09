@@ -44,6 +44,7 @@ precmd() {
 alias ls='LC_COLLATE=C ls --color=auto --time-style="+%y-%m-%d %H:%M" -p --group-directories-first'
 alias nv="nvim"
 alias :q="exit"
+alias cmd="wine cmd /k \"call c:\env.bat\""
 # alias clipchoose="cliphist list | dmenu | cliphist decode | wl-copy"
 # alias nvgd="nvim --cmd 'lua vim.g.godot_mode = true'"
 mkcd() { mkdir -p "$@" && cd "$@"; }

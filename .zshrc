@@ -59,7 +59,8 @@ source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
 
 source <(fzf --zsh) # Remember ctrl+r
 
-export PATH="$HOME/.config/tmux:$PATH" #sessionizer
+export PATH="$PATH:$HOME/.config/tmux" #sessionizer
+export PATH="$HOME/.local/bin:$PATH" #sessionizer
 export XDG_DATA_DIRS="/var/lib/flatpak/exports/share:/home/$USER/.local/share/flatpak/exports/share:$XDG_DATA_DIRS"
 
 #no wine yap

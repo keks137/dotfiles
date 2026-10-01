@@ -12,5 +12,6 @@ cp -r ~/.config/tmux .
 cp -r ~/.config/waybar .
 cp -r ~/.config/foot .
 cp  ~/.zshrc .
+cp  ~/.clang-format .
 
 

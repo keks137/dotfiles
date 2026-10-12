@@ -1,4 +1,4 @@
-AccessModifierOffset: -4
+AccessModifierOffset: -8
 AllowShortFunctionsOnASingleLine: None
 AlignAfterOpenBracket: Align
 AlignTrailingComments: false
@@ -9,7 +9,6 @@ BraceWrapping:
   SplitEmptyRecord: true
   SplitEmptyNamespace: true
 BreakBeforeBraces: Custom
-BreakConstructorInitializers: BeforeComma
 ColumnLimit: 0
 ContinuationIndentWidth: 8
 Cpp11BracedListStyle: false
